@@ -31,9 +31,8 @@ const App = () => {
     return (
         <div className="game">
             <div className="banner">
-                This is an accompanying example to a clicker game tutorial using React. See
-                <a href="https://github.com/Alaricus/clicker-tutorial-react">GitHub</a>
-                for more details.
+                Мирон - человек супер-секс
+
             </div>
             <Clicker amount={state.clicks.amount} dispatch={dispatch} />
             {
